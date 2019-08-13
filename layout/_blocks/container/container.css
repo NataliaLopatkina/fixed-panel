@@ -1,0 +1,27 @@
+@import "../sidebar/sidebar.css";
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+
+    &__content {
+        width: 100%;
+        display: flex;
+    }
+
+    &__main {
+        width: 700px;
+        background: #A52A2A;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+
+    &__sidebar {
+        width: 200px;
+        background: #FFB6C1;
+        box-sizing: border-box;
+        padding: 10px;
+        position: absolute;
+        right: 0;
+    }
+}

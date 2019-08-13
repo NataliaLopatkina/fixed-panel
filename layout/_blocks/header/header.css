@@ -1,0 +1,8 @@
+.header {
+    background: #9370DB;
+    width: 900px;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+    z-index: 100;
+}
